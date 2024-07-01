@@ -85,4 +85,13 @@ Steps:
 * Under "Advanced," add credentials (username/password) created using Google App Passwords.
 * Select "Use SSL" and save the configuration.
 
+### Email Notifications with Email Extension Plugin
+
+* Install the Email Extension Plugin:
+
+  * Go to the Jenkins dashboard.
+  * Navigate to Manage Jenkins > Manage Plugins.
+  * Under the Available tab, search for the Email Extension plugin.
+  * Install the Email Extension plugin.
+
 This README provides a comprehensive overview of the project's functionalities. Refer to the respective scripts (bash and Ansible) for detailed implementation steps.
