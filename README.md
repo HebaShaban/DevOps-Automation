@@ -71,4 +71,18 @@ A Git repository named "InstallApache" is created on Gogs containing the followi
 
 The pipeline utilizes an Ansible playbook (`InstallApache.yml`) to install Apache on the target VM3. The playbook leverages another file (`Inventory`) that defines the target VM's hostname or IP address and secert.
 
+### Email Notifications
+
+Explain how to configure email notifications in Jenkins.
+Steps:
+
+* Go to the Jenkins dashboard.
+* Navigate to Manage Jenkins > System Configuration.
+* Scroll down to "Extended E-mail Notification."
+* Enter the SMTP server details:
+* SMTP server: smtp.gmail.com
+* SMTP port: 465
+* Under "Advanced," add credentials (username/password) created using Google App Passwords.
+* Select "Use SSL" and save the configuration.
+
 This README provides a comprehensive overview of the project's functionalities. Refer to the respective scripts (bash and Ansible) for detailed implementation steps.
