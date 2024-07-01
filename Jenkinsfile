@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git url: 'http://192.168.190.128:3000/Hebashaban/InstallApache',
-                    credentialsId: 'jenkins'
+                 //   credentialsId: 'jenkins'
             }
         }
   
