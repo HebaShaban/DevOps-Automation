@@ -21,25 +21,25 @@ Three virtual machines (VMs) are created:
     * Create a bash script `CreateUsers.sh` to add users and groups.
     * Create a bash script `NotGroupMembers.sh` to list users not in the `deployG` group.
 
-### Gogs Integration with Jenkins
- 
-**1. private Gogs repository
+### Create private repo on Gogs
+* private Gogs repository
 guide outlines how to create an access token , enabling secure interaction with external tools like Jenkins for continuous integration and deployment (CI/CD).
 
-1. Generate an Access Token:
+* Generate an Access Token:
 
    * Log in to your Gogs server as an administrator.
    * Navigate to Settings -> Applications.
    * Click Create New Token.
    * Choose a descriptive name for the token ("Jenkins Integration").
    * click Generate Token
-     
-**2. Webhook Configuration in Gogs**
+### Gogs Integration with Jenkins
+
+**1. Webhook Configuration in Gogs**
 
 * In the Gogs repository settings, navigate to Webhooks.
 * open gogs repo setting > webhook > Add webhook > Add jenkins with Gogs-webhook/endpoint
 
-    **3. Git Plugin Installation in Jenkins**
+    **2. Git Plugin Installation in Jenkins**
 
 * Install the Git plugin in Jenkins.
 * Go to the Jenkins dashboard -> Manage Jenkins -> Manage Plugins.
