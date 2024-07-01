@@ -22,7 +22,7 @@ Three virtual machines (VMs) are created:
     * Create a bash script `NotGroupMembers.sh` to list users not in the `deployG` group.
 
 ### Gogs Integration with Jenkins
-
+ 
 **1. private Gogs repository
 guide outlines how to create an access token , enabling secure interaction with external tools like Jenkins for continuous integration and deployment (CI/CD).
 
