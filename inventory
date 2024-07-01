@@ -1,0 +1,2 @@
+[vm3]
+192.168.190.135 ansible_user=management ansible_become_password=1234
