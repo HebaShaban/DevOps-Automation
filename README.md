@@ -34,12 +34,12 @@ guide outlines how to create an access token , enabling secure interaction with 
    * click Generate Token
 ### Gogs Integration with Jenkins
 
-**1. Webhook Configuration in Gogs**
+ **1. Webhook Configuration in Gogs**
 
 * In the Gogs repository settings, navigate to Webhooks.
 * open gogs repo setting > webhook > Add webhook > Add jenkins with Gogs-webhook/endpoint
 
-    **2. Git Plugin Installation in Jenkins**
+  **2. Git Plugin Installation in Jenkins**
 
 * Install the Git plugin in Jenkins.
 * Go to the Jenkins dashboard -> Manage Jenkins -> Manage Plugins.
